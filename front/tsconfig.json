@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "es5",
+    "module": "esnext",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.d.ts"
+  ],
+  "include": [
+    "src"
+  ]
+}
