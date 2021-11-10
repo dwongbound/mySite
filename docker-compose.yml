@@ -27,9 +27,9 @@ services:
     build: ./front
     ports:
       - "3000:3000"
-    container_name: react-client
+    container_name: site-client
     volumes:
-      - ./front:/hasura-relay-test
+      - ./front:/mySite
     environment: 
       NODE_ENV: dev
 volumes:

@@ -1,6 +1,6 @@
 FROM node:16
 
-WORKDIR /hasura-relay-test
+WORKDIR /mySite
 
 COPY package.json .
 
